@@ -1,0 +1,54 @@
+/*  container css */
+.container{
+  height: 600px;
+  width: 600px;
+  background-color: yellow;
+  position: relative;
+  margin: 0 auto;
+}
+/*  red-blocks css */
+.red-block{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+}
+
+#red-block1{
+  bottom: 0;
+  border-style: dashed;
+  border-bottom: none;
+}
+div#red-block2 {
+    top: 50%;
+    left: 20%;
+    /* margin-right: 20%; */
+    transform: translate(-20%, -50%);
+    z-index: 2;
+}
+/*  green-blocks css */
+.green-block{
+  height: 200px;
+  width: 50px;
+  background-color: green;
+  position: absolute;
+}
+
+div#green-block2 {
+    top: 50%;
+    right: 35%;
+    z-index: 2;
+}
+
+div#green-block1{right: 0;top:0;}
+
+/*  blue-block css */
+.blue-block{
+  height: 250px;
+  width: 300px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
